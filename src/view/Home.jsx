@@ -3,6 +3,7 @@ import Navbar from "../component/Navbar";
 import { Link } from "react-router";
 import Services from "../component/Services";
 import { Shield, Users, Handshake, TrendingUp } from "lucide-react";
+import Footer from "../component/Footer";
 
 function Home() {
   return (
@@ -24,15 +25,17 @@ function Home() {
             buying, selling, or renting, we're here to make your real estate
             journey seamless.
           </p>
-          <Link to="/properties">
-            <button className=" px-3 py-2 md:px-6 md:my-4 md:py-2.5 text-lg bg-red-500 text-white rounded-xl cursor-pointer hover:bg-red-600 duration-300">
-              Explore Properties →
-            </button>
-            <Link to="/contact">
-              <button className=" py-1.5 px-4 md:py-2 md:px-8 text-lg bg-white/20 text-white cursor-pointer rounded-lg border border-white m-2.5 hover:bg-white/40 transition duration-300">
-                Contact Us
-              </button>
-            </Link>
+          <Link
+            to="/properties"
+            className=" px-3 py-2 md:px-6 md:my-4 md:py-2.5 text-lg bg-red-500 text-white rounded-xl cursor-pointer hover:bg-red-600 duration-300"
+          >
+            Explore Properties →
+          </Link>
+          <Link
+            to="/contact"
+            className=" py-1.5 px-4 md:py-2 md:px-8 text-lg bg-white/20 text-white cursor-pointer rounded-lg border border-white m-2.5 hover:bg-white/40 transition duration-300"
+          >
+            Contact Us
           </Link>
         </div>
       </div>
@@ -93,6 +96,7 @@ function Home() {
           description="Stay informed with our expert analysis and property trends."
         />
       </div>
+      <Footer />
     </div>
   );
 }
