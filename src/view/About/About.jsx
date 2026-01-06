@@ -1,8 +1,8 @@
-import Who from "./../../images/about/group.png"
-import Why from "./../../images/about/why-choose.png"
-import Home from "./../../images/about/about-home-demo.jpg"
-import OurVision from "./../../images/about/vision.jpg"
-import ContactUs from "./../../images/about/contact-us.jpg"
+import Who from "./../../images/About/group.png"
+import Why from "./../../images/About/why-choose.png"
+import Home from "./../../images/About/about-home-demo.jpg"
+import OurVision from "./../../images/About/vision.jpg"
+import ContactUs from "./../../images/About/contact-us.jpg"
 function About() {
     return <>
         <div>
