@@ -24,6 +24,8 @@ function About() {
                               Each team member brings specialized expertise, ensuring you receive
                                accurate advice and personalized service.
                         </p>
+
+                        <p className="text-sm w-90 md:w-150 md:text-xl font-medium text-white py-10 px-50">Scroll down to know more about us!</p>
                 </div>
 
             </div>
